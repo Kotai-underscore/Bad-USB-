@@ -1,0 +1,11 @@
+GUI r
+DELAY 500
+ALTSTRING powershell 
+ENTER
+DELAY 1000
+ALTSTRING Powershell Set-WinUserLanguageList -LanguageList en-US
+DELAY 1000
+ENTER
+DELAY 1000
+STRING O
+ENTER
