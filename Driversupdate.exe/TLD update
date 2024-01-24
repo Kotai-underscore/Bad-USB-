@@ -1,0 +1,9 @@
+GUI r
+DELAY 500
+ALTSTRING https://fichiers2.touslesdrivers.com/Mes_Drivers_3.0.4.exe
+DELAY 500
+ENTER
+DELAY 1000
+ALTSTRING https://www.touslesdrivers.com/
+DELAY 500
+ENTER
