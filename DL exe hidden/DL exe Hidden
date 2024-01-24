@@ -1,7 +1,3 @@
-REM Description: Downloads an .exe file from the URL and runs it on the target pc.
-REM Version: 1.0
-REM Category: Execution
-REM Target: All Windows
 DELAY 500
 GUI d
 DELAY 500
